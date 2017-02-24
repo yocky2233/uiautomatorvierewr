@@ -89,6 +89,9 @@ public class UiHierarchyXmlLoader {
                 } else if ("node".equals(qName)) {
                     UiNode tmpNode = new UiNode();
                     for (int i = 0; i < attributes.getLength(); i++) {
+                    	if(attributes.getQName(i).equals("resource-id")) {
+                    		System.out.println(attributes.getValue(i));
+                    	}
                         tmpNode.addAtrribute(attributes.getQName(i), attributes.getValue(i));
                     }
                     //添加自定义元素
