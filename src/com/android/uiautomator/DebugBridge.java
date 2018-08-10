@@ -31,7 +31,7 @@ public class DebugBridge {
 	private static String getAdbLocation() {
 //        String toolsDir = System.getProperty("com.android.uiautomator.bindir"); //$NON-NLS-1$
 //        String toolsDir = "D:\\adt-bundle-windows-x86-20131030\\adt-bundle-windows-x86-20131030\\sdk\\tools";
-        String toolsDir = "E:\\adt-bundle-windows-x86_64-20140321\\adt-bundle-windows-x86_64-20140321\\sdk\\tools";
+        String toolsDir = "H:\\adt-bundle-windows-x86_64-20140321\\adt-bundle-windows-x86_64-20140321\\sdk\\tools";
         if (toolsDir == null) {
             return null;
         }
